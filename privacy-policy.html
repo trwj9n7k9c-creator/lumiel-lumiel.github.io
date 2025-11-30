@@ -1,307 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Lumiel Privacy Policy</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background: #fafafa;
-            color: #222;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 0 20px 80px 20px;
-            background: #fff;
-            border-radius: 12px;
-            box-shadow: 0 0 12px rgba(0,0,0,0.06);
-        }
-
-        h1, h2 {
-            color: #333;
-            margin-top: 1.4em;
-        }
-
-        h1 {
-            text-align: center;
-            margin-bottom: 0.2em;
-        }
-
-        h3 {
-            margin-top: 1.2em;
-            color: #444;
-        }
-
-        p, li {
-            font-size: 16px;
-        }
-
-        ul {
-            padding-left: 20px;
-        }
-
-        .subtle {
-            text-align: center;
-            color: #666;
-            margin-bottom: 2em;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <title>Lumiel Privacy Policy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      color-scheme: light dark;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, -system-ui,
+                   "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f7;
+      color: #111111;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 32px 16px 48px;
+    }
+    .card {
+      background: #ffffff;
+      padding: 32px 24px;
+      border-radius: 16px;
+      box-shadow: 0 18px 45px rgba(0,0,0,0.06);
+    }
+    h1, h2, h3 {
+      font-weight: 700;
+      color: #111111;
+      margin-top: 0;
+    }
+    h1 {
+      font-size: 1.9rem;
+      margin-bottom: 0.25rem;
+    }
+    h2 {
+      font-size: 1.3rem;
+      margin-top: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    h3 {
+      font-size: 1.05rem;
+      margin-top: 1.25rem;
+      margin-bottom: 0.25rem;
+    }
+    p {
+      margin: 0.35rem 0;
+    }
+    ul {
+      margin: 0.35rem 0 0.75rem 1.25rem;
+      padding-left: 1.1rem;
+    }
+    li {
+      margin: 0.2rem 0;
+    }
+    .updated {
+      font-size: 0.95rem;
+      color: #555555;
+      margin-bottom: 1.25rem;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    @media (prefers-color-scheme: dark) {
+      body {
+        background: #000000;
+        color: #f5f5f7;
+      }
+      .card {
+        background: #111111;
+        box-shadow: 0 18px 45px rgba(0,0,0,0.75);
+      }
+      h1, h2, h3 {
+        color: #f5f5f7;
+      }
+      .updated {
+        color: #cccccc;
+      }
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Lumiel Privacy Policy</h1>
-        <p class="subtle"><strong>Last Updated:</strong> November 20th, 2025</p>
+  <div class="container">
+    <div class="card">
+      <h1>Lumiel Privacy Policy</h1>
+      <p class="updated">Last Updated: November 20th, 2025</p>
 
-        <p>
-            Lumiel (“we,” “us,” or “our”) is committed to protecting your privacy. 
-            This Privacy Policy explains how Lumiel collects, uses, stores, and protects information when you use the Lumiel mobile application (the “App”).
-        </p>
+      <p>
+        Lumiel (“we,” “us,” or “our”) is committed to protecting your privacy. This Privacy Policy explains how Lumiel collects, uses, stores, and protects information when you use the Lumiel mobile application (the “App”).
+      </p>
+      <p>
+        Lumiel is a wellness application that provides sleep analytics, activity insights, daylight exposure tracking, and AI-generated wellness messages. Lumiel integrates with Apple HealthKit and uses your device’s health data solely to provide these features.
+      </p>
+      <p>
+        By using Lumiel, you agree to the practices described in this Privacy Policy.
+      </p>
 
-        <p>
-            Lumiel is a wellness application that provides sleep analytics, activity insights, daylight exposure tracking, 
-            and AI-generated wellness messages. Lumiel integrates with Apple HealthKit and uses your device’s health data solely to provide these features.
-        </p>
+      <h2>1. Information We Collect</h2>
 
-        <p>By using Lumiel, you agree to the practices described in this Privacy Policy.</p>
+      <h3>1.1 Health Data (via Apple HealthKit)</h3>
+      <p>With your permission, Lumiel accesses the following Apple Health data types:</p>
+      <ul>
+        <li>Sleep Analysis (start/end time, duration, sleep stages including core/deep/REM)</li>
+        <li>Resting Heart Rate</li>
+        <li>Active Energy Burned</li>
+        <li>Distance Walking + Running</li>
+        <li>Exercise Minutes</li>
+        <li>Activity Summary (standing hours)</li>
+        <li>Time in Daylight</li>
+        <li>Date of Birth</li>
+      </ul>
 
-        <h2>1. Information We Collect</h2>
+      <h3>What We Store on Our Servers</h3>
+      <p>We do not store raw HealthKit samples. We store only aggregated or derived values, including:</p>
+      <ul>
+        <li>Sleep start and end timestamps</li>
+        <li>Total minutes slept</li>
+        <li>Minutes in each sleep stage</li>
+        <li>Daily aggregated totals (energy, distance, exercise minutes, standing hours, daylight minutes)</li>
+        <li>Derived analytics, such as sleep score, activity score, streaks, and trend calculations</li>
+      </ul>
+      <p>No moment-by-moment heart rate data, raw samples, or raw HealthKit datasets are uploaded.</p>
 
-        <h3>1.1 Health Data (via Apple HealthKit)</h3>
+      <h3>How We Use Health Data</h3>
+      <p>Health data is used only to provide core app functionality:</p>
+      <ul>
+        <li>Calculating wellness metrics</li>
+        <li>Generating AI-assisted daily messages</li>
+        <li>Displaying trends and historical insights</li>
+        <li>Personalizing reminders</li>
+        <li>Providing age-appropriate benchmarks</li>
+      </ul>
+      <p>Lumiel does not use HealthKit data for advertising, marketing, profiling, or data brokerage.</p>
+      <p>Per Apple’s HealthKit guidelines:</p>
+      <p>Lumiel does not use HealthKit data to build a user profile or share HealthKit data with third parties.</p>
 
-        <p>With your permission, Lumiel accesses the following Apple Health data types:</p>
+      <h3>1.2 Account Information</h3>
+      <p>Lumiel uses Sign in with Apple for authentication.</p>
+      <p>We store only the anonymous Apple user identifier required to maintain your account.</p>
+      <p>We do not receive or store your email address (real or relay).</p>
 
-        <ul>
-            <li>Sleep Analysis (start time, end time, minutes slept, sleep stages including core, deep, REM, and awake)</li>
-            <li>Resting Heart Rate</li>
-            <li>Active Energy Burned</li>
-            <li>Distance Walking + Running</li>
-            <li>Apple Exercise Time</li>
-            <li>Activity Summary (including standing hours)</li>
-            <li>Time in Daylight</li>
-            <li>Date of Birth</li>
-        </ul>
+      <h3>1.3 Cloud Sync (Supabase)</h3>
+      <p>Lumiel relies on secure cloud-based storage for analytics and account functionality.</p>
+      <p>Because of this, data syncing to our servers is required for the app to function. There is no local-only mode.</p>
 
-        <h3>What We Store on Our Servers</h3>
+      <h3>1.4 AI Message Generation</h3>
+      <p>When generating AI-powered insights, Lumiel sends only aggregated wellness metrics to the OpenAI API.</p>
+      <p>We do not send:</p>
+      <ul>
+        <li>Name</li>
+        <li>Email address</li>
+        <li>Apple ID</li>
+        <li>Any user identifiers</li>
+        <li>Exact timestamps</li>
+        <li>Location data</li>
+        <li>Any raw HealthKit samples</li>
+      </ul>
+      <p>OpenAI does not store API inputs.</p>
+      <p>AI-generated content is used for general wellness support only and does not provide medical advice.</p>
 
-        <p>We do not store raw HealthKit samples. We store only:</p>
+      <h2>2. How We Use Your Information</h2>
+      <p>We use your information solely for:</p>
+      <ul>
+        <li>Computing wellness metrics</li>
+        <li>Displaying insights and trends</li>
+        <li>Generating daily messages</li>
+        <li>Providing account access</li>
+        <li>Maintaining secure authentication</li>
+      </ul>
+      <p>We do not sell, rent, or share your personal data.</p>
+      <p>We do not use third-party analytics or advertising trackers.</p>
+      <p>We do not share data with advertisers or data brokers.</p>
+      <p>Under the CCPA, we do not “sell” or “share” data.</p>
 
-        <ul>
-            <li>Sleep start and end timestamps</li>
-            <li>Total minutes slept</li>
-            <li>Minutes spent in each sleep stage</li>
-            <li>Daily aggregated totals for:
-                <ul>
-                    <li>Active energy burned</li>
-                    <li>Distance walked/running</li>
-                    <li>Exercise minutes</li>
-                    <li>Standing hours</li>
-                    <li>Daylight minutes</li>
-                </ul>
-            </li>
-            <li>Derived metrics, including:
-                <ul>
-                    <li>Sleep score</li>
-                    <li>Activity score</li>
-                    <li>Additional computed analytics used for insights</li>
-                </ul>
-            </li>
-        </ul>
+      <h2>3. Data Storage, Security &amp; Location</h2>
+      <h3>Storage Location</h3>
+      <p>All user data is stored in Supabase, hosted on AWS US-East.</p>
 
-        <p>No raw workout samples, moment-by-moment heart rate data, or raw HealthKit datasets are uploaded.</p>
+      <h3>Security Measures</h3>
+      <p>Supabase provides:</p>
+      <ul>
+        <li>Encryption in transit (TLS)</li>
+        <li>Encryption at rest</li>
+        <li>Row-Level Security (RLS)</li>
+        <li>Least-privilege access</li>
+      </ul>
+      <p>We implement additional organizational and technical security controls.</p>
 
-        <h3>What Remains On Your Device</h3>
+      <h2>4. Data Retention &amp; Deletion</h2>
+      <p>We retain your data until you delete your account.</p>
+      <p>When you delete your account:</p>
+      <ul>
+        <li>All data is permanently deleted within 30 days</li>
+        <li>OpenAI does not retain data processed during message generation</li>
+      </ul>
+      <p>You may also email us to request manual deletion.</p>
 
-        <p>No HealthKit data is stored exclusively on-device. All HealthKit data is processed into aggregated metrics before being sent to our servers.</p>
+      <h2>5. Your Rights</h2>
+      <p>Depending on your region, you may have rights to:</p>
+      <ul>
+        <li>Access your data</li>
+        <li>Request a copy</li>
+        <li>Correct inaccuracies</li>
+        <li>Delete your data</li>
+        <li>Withdraw consent</li>
+        <li>Object to certain processing</li>
+      </ul>
+      <p>To request an export: <a href="mailto:hello@lumiel.app">hello@lumiel.app</a></p>
 
-        <h3>How We Use Health Data</h3>
+      <h2>6. Children’s Privacy</h2>
+      <p>Lumiel is not intended for users under 13 (or under 16 in the EU/EEA).</p>
+      <p>We do not knowingly collect personal information from children.</p>
 
-        <p>We use your HealthKit data only to provide core app functionality:</p>
+      <h2>7. Third-Party Services</h2>
+      <p>Lumiel uses only:</p>
+      <ul>
+        <li>Supabase — secure database &amp; authentication</li>
+        <li>OpenAI API — wellness insight generation (aggregated, non-identifying data)</li>
+      </ul>
+      <p>No other third parties receive your data.</p>
 
-        <ul>
-            <li>Calculating sleep and activity scores</li>
-            <li>Providing wellness insights</li>
-            <li>Displaying historical trends</li>
-            <li>Personalizing reminders</li>
-            <li>Generating AI-assisted messages using your aggregated metrics</li>
-            <li>Determining age-based sleep benchmarks (via date of birth)</li>
-        </ul>
+      <h2>8. Data Sharing &amp; Disclosure</h2>
+      <p>We may disclose data only:</p>
+      <ul>
+        <li>To comply with laws</li>
+        <li>To protect safety or rights</li>
+        <li>With your explicit consent</li>
+      </ul>
+      <p>We never sell or rent your data.</p>
 
-        <p><strong>Lumiel does not use HealthKit data for advertising, marketing, or data brokerage.</strong></p>
+      <h2>9. Security</h2>
+      <p>We implement technical and organizational measures, including:</p>
+      <ul>
+        <li>Encryption</li>
+        <li>RLS</li>
+        <li>Secure authentication</li>
+        <li>Limited access controls</li>
+      </ul>
+      <p>No system is perfectly secure; you must keep your device secure.</p>
 
-        <h3>1.2 Account Information</h3>
-        <p>
-            Lumiel uses Sign in with Apple for authentication. We do not store your email address, real or relay.
-            We store only the anonymous Apple user identifier needed to create and maintain your account.
-        </p>
+      <h2>10. International Users</h2>
+      <p>Your data is processed in the United States.</p>
+      <p>EU/EEA users retain full GDPR rights.</p>
 
-        <h3>1.3 App Usage Information</h3>
-        <p>Lumiel does not use any third-party analytics SDKs, advertising trackers, or profiling tools. We do not collect behavioral tracking information.</p>
+      <h2>11. Changes</h2>
+      <p>We may update this Privacy Policy periodically.</p>
+      <p>Changes are effective when this page is updated.</p>
 
-        <h3>1.4 AI Message Generation</h3>
-        <p>When generating AI-powered insights, Lumiel sends the following aggregated data to the OpenAI API:</p>
-
-        <ul>
-            <li>Daily and multi-day aggregated sleep metrics</li>
-            <li>Daily and multi-day activity metrics</li>
-            <li>Resting heart rate values</li>
-            <li>Derived scores and computed analytics</li>
-            <li>General “yesterday/today” flags (date tags)</li>
-        </ul>
-
-        <p>We do not send:</p>
-        <ul>
-            <li>Your name</li>
-            <li>Email address</li>
-            <li>Apple ID</li>
-            <li>Age</li>
-            <li>Timezone</li>
-            <li>Exact sleep timestamps</li>
-            <li>Any identifiers linking data back to you</li>
-        </ul>
-
-        <p><strong>AI outputs are for general wellness support only and do not constitute medical advice.</strong></p>
-
-        <h2>2. How We Use Your Information</h2>
-
-        <p>We use your information solely for the following purposes:</p>
-
-        <ul>
-            <li>To compute wellness metrics (sleep score, activity score, daylight metrics, etc.)</li>
-            <li>To display health insights and trends</li>
-            <li>To generate personalized wellness messages</li>
-            <li>To personalize reminders and sleep-consistency tools</li>
-            <li>To provide account access and maintain secure authentication</li>
-        </ul>
-
-        <p>We do not:</p>
-        <ul>
-            <li>Sell your data</li>
-            <li>Rent your data</li>
-            <li>Share your data with advertisers</li>
-            <li>Use your data for targeted advertising</li>
-            <li>Transfer health data to data brokers</li>
-        </ul>
-
-        <h2>3. Data Storage, Security & Location</h2>
-
-        <h3>3.1 Storage Location</h3>
-        <p>All user data is stored in Supabase, hosted on AWS US-East.</p>
-
-        <h3>3.2 Security Measures</h3>
-        <p>Supabase provides:</p>
-
-        <ul>
-            <li>Encryption in transit (TLS)</li>
-            <li>Encryption at rest</li>
-            <li>Row-Level Security (RLS), ensuring each user can access only their own data</li>
-        </ul>
-
-        <p>We implement least-privilege access and secure storage practices.</p>
-
-        <h2>4. Data Retention</h2>
-
-        <p>
-            We retain your data until you delete your account or request deletion.
-            If you delete your account:
-        </p>
-
-        <ul>
-            <li>Your data will be permanently deleted within 30 days</li>
-            <li>Deletion may occur sooner, but never later than 30 days</li>
-            <li>You may also contact us to request manual deletion</li>
-        </ul>
-
-        <h2>5. Your Rights</h2>
-
-        <p>Depending on your region, you may have the right to:</p>
-
-        <ul>
-            <li>Access your data</li>
-            <li>Request a copy of your data</li>
-            <li>Correct inaccuracies</li>
-            <li>Delete your data</li>
-            <li>Withdraw consent</li>
-            <li>Object to certain types of processing</li>
-        </ul>
-
-        <h3>Requesting a Copy of Your Data</h3>
-        <p>You may request an exported copy of your stored data by emailing: <strong>hello@lumiel.app</strong></p>
-        <p>Requests will be completed within a reasonable time.</p>
-
-        <h2>6. Children’s Privacy</h2>
-
-        <p>
-            Lumiel is not intended for users under 13 years old outside the EU/EEA.
-            In the EU/EEA, Lumiel is not intended for users under 16 years old.
-            We do not knowingly collect personal information from children under these age limits.
-        </p>
-
-        <h2>7. Third-Party Services We Use</h2>
-
-        <p>Lumiel uses only the following third-party services:</p>
-
-        <h3>Supabase</h3>
-        <p>For database storage and user authentication.</p>
-
-        <h3>OpenAI API</h3>
-        <p>For generating wellness insights using aggregated, non-identifying data.</p>
-
-        <p>We do not share personal data with any other third parties.</p>
-
-        <h2>8. Data Sharing & Disclosure</h2>
-
-        <p>We may disclose your information only in the following cases:</p>
-
-        <ul>
-            <li>To comply with applicable laws or legal processes</li>
-            <li>To protect the rights, safety, or property of Lumiel or users</li>
-            <li>With your explicit consent</li>
-        </ul>
-
-        <p><strong>We never sell, rent, or share your data with advertisers or data brokers.</strong></p>
-
-        <h2>9. Security</h2>
-
-        <p>
-            Although no system is perfectly secure, we implement technical and organizational measures to protect your data, including:
-        </p>
-
-        <ul>
-            <li>Encryption</li>
-            <li>Row-Level Security (RLS)</li>
-            <li>Secure authentication</li>
-            <li>Limited access controls</li>
-        </ul>
-
-        <p>You are responsible for keeping your device secure.</p>
-
-        <h2>10. International Users</h2>
-
-        <p>
-            By using Lumiel, you understand your data is processed in the United States.
-            Users in the EU/EEA retain rights under the GDPR, including access, correction, deletion, and objection rights.
-        </p>
-
-        <h2>11. Changes to This Policy</h2>
-
-        <p>
-            We may update this Privacy Policy from time to time. 
-            Changes will be reflected by updating the “Last Updated” date above. 
-            Significant changes may be communicated within the App.
-        </p>
-
-        <h2>12. Contact Us</h2>
-
-        <p>If you have questions, requests, or concerns about this Privacy Policy, contact us at:</p>
-
-        <p><strong>hello@lumiel.app</strong></p>
-
+      <h2>12. Contact Us</h2>
+      <p>If you have questions or requests:</p>
+      <p><a href="mailto:hello@lumiel.app">hello@lumiel.app</a></p>
     </div>
+  </div>
 </body>
 </html>
